@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.6"
-  },
-  "type": "module"
+    "mocha": "^8.2.1",
+    "mongoose": "^5.11.10",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  }
 }
