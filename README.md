@@ -3,7 +3,7 @@ API used for shortening URLs
 
 This project uses Node.js to set up the backend API calls.
 
-<h3>Instructions:<h3/>
+<h3>Instructions:</h3>
 
 -Once the repository is downloaded, download Node is you haven't already here: https://nodejs.org/en/download/<br/>
 -In your terminal, while inside the project directory, run the "npm install" command to install needed packages.<br/>
@@ -28,7 +28,7 @@ localhost:3000/:shortcode/stats<br/>
 -Will show statistics for the shortcode including the associated URL, the date it was created, the last time it was used, and how many times it was used.<br/>
 -Will return an error message if the shortcode does not exist.<br/>
 
-<h3>Testing:<h3/>
+<h3>Testing:</h3>
 
 -In order to run tests, mocha and supertest need to be installed in the directory using "npm install mocha supertest"<br/>
 -Then run "mocha tests/testFileName" to run the tests.
