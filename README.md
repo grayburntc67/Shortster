@@ -5,7 +5,7 @@ This project uses Node.js to set up the backend API calls.
 
 <h3>Instructions:</h3>
 
--Once the repository is downloaded, download Node is you haven't already here: https://nodejs.org/en/download/<br/>
+-Once the repository is downloaded, download Node if you haven't already here: https://nodejs.org/en/download/<br/>
 -In your terminal, while inside the project directory, run the "npm install" command to install needed packages.<br/>
 -Run the "npm start" command in order to start the backend on your local machine.<br/>
 
@@ -17,7 +17,7 @@ localhost:3000//shorten?url=desiredURL&name=desiredName<br/>
 -The url query should be the full url that will be shortened.<br/>
 -The name query is optional. If left out, the backend with generate a code for the user, or the user can specify one they want. User generated codes must be at least 4 characters and can contain uppercase, lowercase, and/or numbers.<br/>
 -Returns the code that was created.
--Returns an error message if name doesn't meet requirements or already exists.<br/>
+-Returns an error message if the user created code doesn't meet requirements or already exists.<br/>
 
 localhost:3000//:shortcode<br/>
 -The :shortcode parameter is variable and should be an existing shortcode.<br/>
