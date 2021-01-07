@@ -16,17 +16,18 @@ Note: Due to the tiny and temporary scale of this project, a simple array is use
 localhost:3000//shorten?url=desiredURL&name=desiredName<br/>
 -The url query should be the full url that will be shortened.<br/>
 -The name query is optional. If left out, the backend with generate a code for the user, or the user can specify one they want. User generated codes must be at least 4 characters and can contain uppercase, lowercase, and/or numbers.<br/>
--Will return an error message if name doesn't meet requirements or already exists.<br/>
+-Returns the code that was created.
+-Returns an error message if name doesn't meet requirements or already exists.<br/>
 
 localhost:3000//:shortcode<br/>
 -The :shortcode parameter is variable and should be an existing shortcode.<br/>
--Will redirect the user to the url associated with the shortcode.<br/>
--Will return an error message if the shortcode does not exist.<br/>
+-Redirects the user to the url associated with the shortcode.<br/>
+-Returns an error message if the shortcode does not exist.<br/>
 
 localhost:3000/:shortcode/stats<br/>
 -The :shortcode parameter is variable and should be an existing shortcode.<br/>
--Will show statistics for the shortcode including the associated URL, the date it was created, the last time it was used, and how many times it was used.<br/>
--Will return an error message if the shortcode does not exist.<br/>
+-Returns statistics for the shortcode including the associated URL, the date it was created, the last time it was used, and how many times it was used.<br/>
+-Returns an error message if the shortcode does not exist.<br/>
 
 <h3>Testing:</h3>
 
