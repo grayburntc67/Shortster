@@ -16,7 +16,7 @@ Note: Due to the tiny scale of this project, a simple array is used to story dat
 localhost:3000//shorten?url=desiredURL&name=desiredName<br/>
 -The url query should be the full url that will be shortened.<br/>
 -The name query is optional. If left out, the backend with generate a code for the user, or the user can specify one they want. User generated codes must be at least 4 characters and can contain uppercase, lowercase, and/or numbers.<br/>
--Returns the code that was created.
+-Returns the code that was created.<br/>
 -Returns an error message if the user created code doesn't meet requirements or already exists.<br/>
 
 localhost:3000//:shortcode<br/>
