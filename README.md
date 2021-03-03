@@ -1,4 +1,4 @@
-# Shortster
+# URL-Shortener
 API used for shortening URLs
 
 This project uses Node.js to set up the backend API calls.
