@@ -9,7 +9,7 @@ This project uses Node.js to set up the backend API calls.
 -In your terminal, while inside the project directory, run the "npm install" command to install needed packages.<br/>
 -Run the "npm start" command in order to start the backend on your local machine.<br/>
 
-Note: Due to the tiny and temporary scale of this project, a simple array is used to story data in memory, and anything stored there will be deleted when the server is stopped. A larger scale would obviously require a database.<br/>
+Note: Due to the tiny scale of this project, a simple array is used to story data in memory, and anything stored there will be deleted when the server is stopped. A larger scale would obviously require a database.<br/>
 
 <h3>Endpoints (for local machine):</h3>
 
