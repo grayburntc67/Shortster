@@ -28,8 +28,3 @@ localhost:3000/:shortcode/stats<br/>
 -The :shortcode parameter is variable and should be an existing shortcode.<br/>
 -Returns statistics for the shortcode including the associated URL, the date it was created, the last time it was used, and how many times it was used.<br/>
 -Returns an error message if the shortcode does not exist.<br/>
-
-<h3>Testing:</h3>
-
--In order to run tests, mocha and supertest need to be installed in the directory using "npm install mocha supertest"<br/>
--Then run "mocha tests/testFileName" to run the tests.
